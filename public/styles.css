@@ -21,7 +21,7 @@ p {
 
 .lamassuAdminMain {
     display: flex;
-    height: 100%;
+    margin-bottom: 40px;
 }
 
 .lamassuAdminPaneWrapper {
@@ -378,6 +378,14 @@ p {
 
 .lamassuAdminConfigTable  .lamassuAdminSelectizeContainer  .lamassuAdminSingleItemContainer  .lamassuAdminFallbackItem {
     color: #5f5f56;
+}
+
+.lamassuAdminConfigTable  .lamassuAdminSelectizeContainer  .lamassuAdminSelectizeLanguage  .lamassuAdminSelectBox {
+    width: 140px;
+}
+
+.lamassuAdminConfigTable  .lamassuAdminSelectizeContainer  .lamassuAdminSelectizeCryptoCurrency  .lamassuAdminSelectBox {
+    width: 150px;
 }
 
 .lamassuAdminConfigTable  .lamassuAdminSelectizeContainer  input {
